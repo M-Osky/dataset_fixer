@@ -5,5 +5,6 @@
 - From Structure to Bayescan
 - From Structure to Arlequin
 
+Obviously I do not own PGDSpider, just find it usefull
 For more information:
 http://www.cmpg.unibe.ch/software/PGDSpider/
