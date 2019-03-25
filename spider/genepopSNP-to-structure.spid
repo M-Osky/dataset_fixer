@@ -1,0 +1,23 @@
+# spid-file generated: Thu Sep 27 13:04:17 CEST 2018
+
+# GENEPOP Parser questions
+PARSER_FORMAT=GENEPOP
+
+# Enter the size of the repeated motif (same for all loci: one number; different: comma separated list (e.g.: 2,2,3,2):
+GENEPOP_PARSER_REPEAT_SIZE_QUESTION=
+# Select the type of the data:
+GENEPOP_PARSER_DATA_TYPE_QUESTION=SNP
+# How are Microsat alleles coded?
+GENEPOP_PARSER_MICROSAT_CODING_QUESTION=ARBITARY
+
+# STRUCTURE Writer questions
+WRITER_FORMAT=STRUCTURE
+
+# Specify the locus/locus combination you want to write to the STRUCTURE file:
+STRUCTURE_WRITER_LOCUS_COMBINATION_QUESTION=
+# Do you want to include inter-marker distances?
+STRUCTURE_WRITER_LOCI_DISTANCE_QUESTION=false
+# Specify which data type should be included in the STRUCTURE file  (STRUCTURE can only analyze one data type per file):
+STRUCTURE_WRITER_DATA_TYPE_QUESTION=SNP
+# Save more specific fastSTRUCTURE format?
+STRUCTURE_WRITER_FAST_FORMAT_QUESTION=false
