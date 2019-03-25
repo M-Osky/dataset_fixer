@@ -46,7 +46,7 @@ Probably the only think you need to edit in dataset_fixer script is the location
 
 
 
-# Tested with input files as "populations" (Stacks) produces them
+# Tested with input files produced by "populations" (Stacks)
 
 (I do not own or am related in any way to Stacks people. Is a good useful pipeline for SNP calling: http://catchenlab.life.illinois.edu/stacks/)
 
