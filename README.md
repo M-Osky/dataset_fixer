@@ -46,7 +46,12 @@ Probably the only think you need to edit in dataset_fixer script is the location
 
 
 
-# input files in Structure format as Populations (from Stacks pipeline) produces them
+# Tested with input files as "populations" (Stacks) produces them
+
+(I do not own or am related in any way to Stacks people. Is a good useful pipeline for SNP calling: http://catchenlab.life.illinois.edu/stacks/)
+
+Structure format: population.structure
+
 Tab-separated. It may have one first row commented out, doesn't matter, will be ignored.
 
 One row with marker names (with two empty positions at the left), two rows per individual.
@@ -75,3 +80,6 @@ Example
             La005       LaPuta      3           1           3           4           1           4
             At006       Atlantis    3           2           1           4           2           4
             At006       Atlantis    3           2           3           4           2           1
+            
+
+The vcf file tested is also the one produced by populations (structure): populations.snps.vcf
