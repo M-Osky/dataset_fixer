@@ -38,14 +38,17 @@ Also PGDSpider outputs the log file at the working directory by default
 
 # input files are always in Structure format as Populations (from Stacks pipeline) produces them
 Tab-separated. It may have one first row commented out, doesn't matter, will be ignored.
+
 One row with marker names (with two empty positions at the left), two rows per individual.
+
 One first column with individual tags, one second column with population codes and then one column per SNP, coded from 0-4 (0=missing).
+
 It may fail if the sample names don't include the population names in their codename:
 POP1_001; or popA002; or CoolPlace042; etc
 
-Some command line arguments can be used to adjust this if it doesn't fit your inputfile format
+Some command line arguments can be used to adjust this if it doesn't fit your inputfile format.
 
-Check the help from the dataset_fixer script and/or from the perl modules for more details
+Check the help from the dataset_fixer script and/or from the perl modules for more details.
 
 Example
 
