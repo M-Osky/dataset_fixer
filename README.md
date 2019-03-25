@@ -6,7 +6,7 @@ To see the full information, usage, arguments, and settings just use any of the 
 
     dataset_fixer_v3.sh -help
 
-By default it will call five different modules: new_locinames, delete_bad_samples, delete_bad_loci, monomorphic, missing_replacer
+By default it will call five different modules: new_locinames, delete_bad_samples, delete_bad_loci, monomorphic, and missing_replacer
 They need to be at your perl library.
 Process:
 
@@ -22,8 +22,8 @@ Process:
 
 Some of the modules have more functionalities not activated by default, like replace column separator.
 It can input/replace missing genotypes in different ways:
-- SNP is missing in few samples: global mode (most frequent genotype), population mode, customized value (including 0 to keep it as missing).
-- SNP is missing in most of the samples of the population: global mode, customized value (including 5 to differentiate it or 0)
+- SNP is missing in few samples: global mode (most frequent genotype), population mode, customized value (including "0" to keep it as missing).
+- SNP is missing in most of the samples of the population: global mode, customized value (including "5" to differentiate it as a deletion or "0" to keep it as missing)
 
 This has been bash directly in the working directory and in another path with no problems. All the output files will be generated in the path where your input file is at.
 
@@ -37,11 +37,11 @@ Also PGDSpider outputs the log file at the working directory by default
 
 
 # input files are always in Structure format as Populations (from Stacks pipeline) produces them
-Tab-separated. It may have one first row commented out, doesn't matter, will be ignored
+Tab-separated. It may have one first row commented out, doesn't matter, will be ignored.
 One row with marker names (with two empty positions at the left), two rows per individual.
-One first column with individual tags, one second column with population codes and then one column per SNP, coded from 0-4 (0=missing)
+One first column with individual tags, one second column with population codes and then one column per SNP, coded from 0-4 (0=missing).
 It may fail if the sample names don't include the population names in their codename:
-POP1_001; or popA002; or CoolPlace042
+POP1_001; or popA002; or CoolPlace042; etc
 
 Some command line arguments can be used to adjust this if it doesn't fit your inputfile format
 
