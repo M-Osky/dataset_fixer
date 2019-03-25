@@ -16,7 +16,7 @@ To see the help information of the modules you can use any help flag: -h --h hel
 
   - refmap_maker.pl is not a module of dataset_fixer
   It is a script to make multiple ref_map submission files with different parameters
-  After populations (Stacks) finishes it will automatically run dataset_fixer
+  
 
 
 # Whole info
