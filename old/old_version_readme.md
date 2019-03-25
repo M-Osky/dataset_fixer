@@ -8,6 +8,6 @@ Only two arguments can be passed from command line:
 Everything about the input file format and most of the pipeline is the same than in the main updated version (see readme)
 Most of the modules have their own Help information, I specially recommend to check missing_replacer help to understand the parameters
 
-To see the help information of the modules you can use any help flag: h -h --h help -help --help 
+To see the help information of the modules you can use any help flag: -h --h help -help --help 
 
 - M'Ósky
