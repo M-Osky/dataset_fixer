@@ -10,14 +10,14 @@ By default it will call five different modules: new_locinames, delete_bad_sample
 They need to be at your perl library.
 Process:
 
-1) [optional] Will rename the loci names using Scaffold number + SNP position from a vcf file.
-2) Will delete low quality samples (with percentage of missing 85% and above by default).
-3) Will delete low quality loci (with percentage of missing 30% and above by default).
-4) [optional] Will delete the samples left with 30% or more missing.
-5) Will look if there is any loci monomorphic or non bi-allelic and delete it.
-6) [optional] Will input the most frequent genotype (by default) in any missing values left.
-7) Will call PGDSpider to transform the file to various formats (Bayescan, Genepop, Arlequin).
-8) Will output a log file, a popmap, and lists of samples loci deleted and kept
+1)  [optional] Will rename the loci names using Scaffold number + SNP position from a vcf file.
+2)  Will delete low quality samples (with percentage of missing 85% and above by default).
+3)  Will delete low quality loci (with percentage of missing 30% and above by default).
+4)  [optional] Will delete the samples left with 30% or more missing.
+5)  Will look if there is any loci monomorphic or non bi-allelic and delete it.
+6)  [optional] Will input the most frequent genotype (by default) in any missing values left.
+7)  Will call PGDSpider to transform the file to various formats (Bayescan, Genepop, Arlequin).
+8)  Will output a log file, a popmap, and lists of samples loci deleted and kept
 
 
 Some of the modules have more functionalities not activated by default, like replace column separator.
