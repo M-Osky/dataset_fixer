@@ -46,7 +46,7 @@ Probably the only think you need to edit in dataset_fixer script is the location
 
 
 
-# input files are always in Structure format as Populations (from Stacks pipeline) produces them
+# input files in Structure format as Populations (from Stacks pipeline) produces them
 Tab-separated. It may have one first row commented out, doesn't matter, will be ignored.
 
 One row with marker names (with two empty positions at the left), two rows per individual.
