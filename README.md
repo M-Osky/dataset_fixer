@@ -1,4 +1,4 @@
-# Dataset fixer version 3.0
+# Dataset fixer version 3.X
 
 Unix script that will call different perl modules to check and clean your Structure datasets from missing values and other errors.
 
