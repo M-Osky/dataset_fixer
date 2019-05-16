@@ -30,7 +30,7 @@ It can input/replace missing genotypes in different ways:
 - If SNP is missing in few samples: global mode (most frequent genotype), population mode (most frequent genotype in the population), or a customized value (including "000000" to keep it as missing).
 - If SNP is missing in most of the samples of the population: global mode, customized value (including "005005" to differentiate it as a deletion in that population, or "000000" to keep it as missing).
 
-This has been bash directly in the working directory and to files in other patsh with no problems. All the output files will be generated in the path where your input file is at.
+This has been bash directly in the working directory and to files in other paths with no problems. All the output files will be generated in the path where your input file is at.
 
 It has also been called from a submission file and submitted as a job (qsub) with no errors.
 
