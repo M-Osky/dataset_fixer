@@ -40,7 +40,8 @@ VERSION="dataset_fixer_v3.1.sh"
 ###########################################################################################################################
 
 
-#### NOTHING TO SEE BELOW THIS LINE
+#### BELLOW THIS LINE YOU HAVE THE DEFAULT PARAMETERS, CHANGE THEM IF YOU DON'T WANT TO DO SO FROM COMMAND LINE ARGUMENTS
+#### BUT CHECK FIRST WHAT THEY DO IN THE HELP INFORMATION
 
 
 ################################################################################################################
@@ -188,7 +189,7 @@ POPLENGTH=2
 #POPLENGTH=2
 #POPLENGTH=3
 
-
+#GENEPOP FORMATED FILE EXTENSION
 SUFIX4=".gen"
 
 
@@ -230,10 +231,15 @@ SUFIX6="_FINAL"
 # If you want an output file name that indicates the options chosen in missing_replacer
 CUSTOMOUT="yes"
 
+#ARLEQUIN, BAYESCAN, AND STRUCTURE FILE EXTENSIONS
 SUFIX7=".arp"
 SUFIX8=".bayescan"
 SUFIX9=".str"
 
+
+##########################################################################################################
+##########   BELOW THIS LINE IS BETTER TO NO EDIT ANYTHING UNLESS YOU KNOW WHAT YOU ARE DOING    #########
+##########################################################################################################
 
 
 #Help!
@@ -525,7 +531,7 @@ while test $# -gt 0; do
 			;;
 		*)
 			printf "\nError: $1 is not a recognized flag!\n\nCall the program using any \"help\" flag to see the usage:\n\t$VERSION --h\n\t$VERSION -help\n\t$VERSION help\n\tetc..."
-			exit 0;
+			exit 1;
 		;;
 	esac
 done
