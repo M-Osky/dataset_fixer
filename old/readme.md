@@ -4,7 +4,7 @@
 
 Those are some old versions. I don't recommend them, but it's true that they are less complex and easier to use.
 
-Main dataset_fixer has no help information, the first lines of the script briefly explain its use.
+Below version 3.0 dataset_fixer has no help information, the first lines of the script briefly explain its use.
 Only two arguments can be passed from command line:
   - input file path/name (string).
   - number of characters of the population name code in the individual tag (integer)
